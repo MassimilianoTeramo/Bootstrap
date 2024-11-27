@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK FONT GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Kumar+One&family=Oi&family=Vibur&display=swap"
+        rel="stylesheet">
+
+    <!-- LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- LINK CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Esercizio Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-dark button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
+
+    </header>
+    <!-- SIDEBAR-->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header listaAlbum">
+            <h4 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Pink Floyd</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body listaAlbum ">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page">About the Pink Floyd</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectThree">Albums</a>
+                </li>
+                <li class="element">
+                    The Wall
+                </li>
+                <li class="element">
+                    Wish you were here
+                </li>
+                <li class="element">The Dark Side of the Moon
+                </li>
+                <li class="element">
+                    Atom Heart Mother
+                </li>
+                <li class="nav-item" style="margin-top: 20px;">
+                    <a class="nav-link" href="#sectFour">My favorite</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- FINE SIDEBAR-->
+
+    <!-- SEZIONE ABOUT-->
+    <div class="container-fluid">
+
+        <h1>Pink Floyd</h1>
+
+        <section id="sectTwo">
+            <h2>About</h2>
+            <div class="clearfix history">
+                <img src="img/floyd.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="band">
+
+                <p>
+                    Pink Floyd are an English rock band formed in London in 1965. Gaining an early following as one of
+                    the
+                    first British psychedelic groups, they were distinguished by their extended compositions, sonic
+                    experiments, philosophical lyrics, and elaborate live shows. They became a leading band of the
+                    progressive rock genre, cited by some as the greatest progressive rock band of all time.
+
+                    Pink Floyd were founded in 1965 by Syd Barrett (guitar, lead vocals), Nick Mason (drums), Roger
+                    Waters
+                    (bass guitar, vocals) and Richard Wright (keyboards, vocals). With Barrett as their main songwriter,
+                    they released two hit singles, "Arnold Layne" and "See Emily Play", and the successful debut album
+                    The
+                    Piper at the Gates of Dawn (all 1967). David Gilmour (guitar, vocals) joined in 1967; Barrett left
+                    in
+                    1968 due to deteriorating mental health. While all four members contributed compositions, Waters
+                    became
+                    the primary lyricist and thematic leader, devising the concepts behind Pink Floyd's most successful
+                    albums, The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977) and The Wall
+                    (1979).
+                    The musical film based on The Wall, Pink Floyd – The Wall (1982), won two BAFTA Awards. Pink Floyd
+                    also
+                    composed several film scores.
+                </p>
+
+                <p>
+
+                    Following personal tensions, Wright left Pink Floyd in 1981, followed by Waters in 1985. Gilmour and
+                    Mason continued as Pink Floyd, rejoined later by Wright. They produced the albums A Momentary Lapse
+                    of
+                    Reason (1987) and The Division Bell (1994), both backed by major tours. In 2005, all but Barrett
+                    reunited for a performance at the global awareness event Live 8. Barrett died in 2006 and Wright in
+                    2008. The last Pink Floyd studio album, The Endless River (2014), was based on unreleased material
+                    from
+                    the Division Bell recording sessions. In 2022, Gilmour and Mason reformed Pink Floyd to release the
+                    song
+                    "Hey, Hey, Rise Up!" in protest of the Russian invasion of Ukraine.
+                </p>
+                <p>
+                    By 2013, Pink Floyd had sold more than 250 million records worldwide, making them one of the
+                    best-selling music artists of all time. The Dark Side of the Moon and The Wall were inducted into
+                    the
+                    Grammy Hall of Fame,[1] and are among the best-selling albums of all time. Four Pink Floyd albums
+                    topped
+                    the US Billboard 200 and five topped the UK Albums Chart. Their hit singles include "Arnold Layne"
+                    (1967), "See Emily Play" (1967), "Money" (1973), "Another Brick in the Wall, Part 2" (1979), "Not
+                    Now
+                    John" (1983), "On the Turning Away" (1987) and "High Hopes" (1994). Pink Floyd were inducted into
+                    the US
+                    Rock and Roll Hall of Fame in 1996 and the UK Music Hall of Fame in 2005. In 2008, they were awarded
+                    the
+                    Polar Music Prize in Sweden for their contribution to modern music. </p>
+
+            </div>
+    </div>
+    </section>
+    <!-- FINE Sezione ABOUT-->
+
+    <!-- SEZIONE CARDS-->
+    <section id="sectThree">
+        <h2> Albums</h2>
+        <div id="cardMax">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/thewall.jpg" class="card-img-top" alt="the wall">
+                            <div class="card-body">
+                                <h5 class="card-title">The Wall</h5>
+
+                                <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PINK FLOYD</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                                <li class="list-group-item">Duration: 1h 35m</li>
+                            </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/wuwh.jpg" class="card-img-top" alt="WishYou" style="height: 255px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Wish You Were Here</h5>
+
+                                <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PINK FLOYD</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                                <li class="list-group-item">Duration: 43 m</li>
+
+                            </ul>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/thdsm.jpeg" class="card-img-top" alt="the wall" style="height: 255px;">
+                            <div class="card-body">
+                                <h5 class="card-title">The Dark Side of the Moon</h5>
+                                 <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PINK FLOYD</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                                <li class="list-group-item">Duration: 42:57m</li>
+                            </ul>
+
+
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/atom-heart-swiss-large.jpg" class="card-img-top" alt="AtomHeart"
+                                style="height: 255px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Atom Heart Mother</h5>
+                                 <ul class="list-group list-group-flush">
+                                <li class="list-group-item">PINK FLOYD</li>
+                                <li class="list-group-item">Genre: Rock </li>
+                                <li class="list-group-item">Duration: 1h 37m </li>
+
+                            </ul>
+
+                            </div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+<!-- FINE SEZIONE ALBUMS-->
+
+<!-- SEZIONE ALBUM FAV-->
+    <section id="sectFour">
+        <h2>My Favorite Album</h2>
+        <div class="card myFavorite" style="width: 40rem;">
+            <img src="img/appetite.jpg" class="card-img-top" alt="AppforDistruction">
+            <div class="card-body">
+                <h5 class="card-title">Guns 'N Roses</h5>
+                <p class="card-text">Appetite for Distruction</p>
+                <ul class="list-group list-group-flush listMax">
+                    <li class="list-group-item">Genre: Hard-Rock</li>
+                    <li class="list-group-item">Duration: 53:52m</li>
+                </ul>
+                <div class="btn-group dropend">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tracklist
+                    </button>
+                    <ul class="dropdown-menu">
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Welcome to the Jungle</li>
+                            <li class="list-group-item">It's so Easy</li>
+                            <li class="list-group-item">Nightrain</li>
+                            <li class="list-group-item">Out Ta Get Me</li>
+                            <li class="list-group-item">Mr. Brownstone</li>
+                            <li class="list-group-item">Paradise City</li>
+                            <li class="list-group-item">My Michelle</li>
+                            <li class="list-group-item">Think About You</li>
+                            <li class="list-group-item"> Sweet Child O' Mine</li>
+                            <li class="list-group-item">You Are Crazy</li>
+                            <li class="list-group-item">Anything Goes</li>
+                            <li class="list-group-item"> Rocket Queen</li>
+
+                        </ol>
+                    </ul>
+                </div>
+            </div>
+
+
+    </section>
+<!-- FINE SEZIONE ALBUM FAV-->
+
+<!--SCRIPT JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+ 
+</body>
+
+</html>

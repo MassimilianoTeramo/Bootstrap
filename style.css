@@ -1,0 +1,152 @@
+body {
+    background-image: url(img/desktop-wallpaper-pink-floyd-live-pink-floyd-band.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+h1 {
+        font-family: floydian, sans-serif;
+        font-size: 100px;
+        color: rgba(192, 12, 132, 0.585); 
+        margin-top: 80px;
+    }
+    h4{
+        /* font-size: 30px; */
+        color: purple;
+    }
+    h5 {
+        /* font-size: 20px; */
+        text-align: center;
+        color: purple;
+        font-family: floydian, sans-serif;
+    }
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    font-family: floydian, sans-serif;
+    font-size: 20px;
+    color: purple;
+    box-shadow: 1px 1px 30px;
+    background-color: transparent;
+
+}
+
+ul {
+    margin-left: 10px;
+
+}
+
+.element {
+    margin-left: 25px;
+}
+
+
+.listaAlbum li:nth-of-type(2) {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.listaAlbum {
+    font-family: floydian, sans-serif;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 9%, rgba(50, 0, 61, 1) 100%);
+
+    ul {
+        color: white;
+
+    }
+
+    a {
+        font-size: larger;
+        color: purple
+    }
+
+    a:hover {
+        font-size: larger;
+        color: white;
+    }
+}
+
+
+.history {
+    width: 70vw;
+    text-align: justify;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(108, 98, 98, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px 10px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    img:nth-of-type(1) {
+        width: 380px;
+    }
+
+    img:nth-of-type(2) {
+        width: 380px;
+
+    }
+
+}
+
+h2 {
+    font-family: floydian, sans-serif;
+    color: purple;
+    /* font-size: 60px; */
+    text-align: center;
+}
+
+#sectThree {
+    text-align: center;
+    margin: 90px auto;
+    .card-body{
+        height:230px
+    }
+    ul {
+        margin-top: 20px;
+    }
+    .card-body li:nth-of-type(1){
+        font-weight: bold;
+    }
+
+}
+
+
+.card {
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.384);
+}
+
+#cardMax {
+    margin-top: 50px;
+
+    .col {
+        margin-top: 30px;
+    }
+}
+
+.myFavorite {
+    margin: 50px auto;
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.384);
+}
+
+#sectFour {
+    button {
+    margin-top: 20px;}
+    li {
+        width: 250px;
+    
+    }
+    h5 {
+            /* font-size: 30px; */
+            font-family: "Kumar One", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+}
